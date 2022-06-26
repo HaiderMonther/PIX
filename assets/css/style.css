@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 400px;
+    gap: 1rem;
+    background: url("../images/home/header-bg.jpg");
+    color: white;
+    background-size: cover;
+}
+
+header img{
+    width: 7rem;
+}
+header p{
+    font-size: 2rem;
+}
+
+header input{
+    width: 70rem;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+}
+.main-content{
+    padding: 3rem ;
+}
+.main-content div{
+    width: 500px;
+    height: 300px;
+    border-radius: 2rem;
+}
+.main-content .nature{
+    background: url("../images/home/nat.jpg");
+    background-size: cover;
+    
+}
+.main-content .food{
+    background: url("../images/home/food.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.main-content .animals{
+    background: url("../images/home/anm.jpg");
+    background-size: cover;
+}
+.main-content .arch{
+    background: url("../images/home/arch.jpg");
+    background-size: cover;
+}
+.main-content .his{
+    background: url("../images/home/batuhan-dogan-qJq6JK-tC_U-unsplash\(2\).jpg");
+    background-size: cover;
+    background-position: bottom;
+}
