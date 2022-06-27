@@ -230,7 +230,7 @@ footer {
 }
 
 
-/* ---------------------------- Food & Drinks ----------------------------- */
+/* ---------------------------- Food & Drinks -----------------------------*/ 
 
 .food-header {
     background-color: rgb(0, 0, 0);
@@ -281,6 +281,64 @@ footer {
 
 .pages-main-content .food7 {
     background: url("../images/food/vd-photography-HFjclWnOHrI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/* ---------------------------- animals -----------------------------*/ 
+
+.animals-header {
+    background-color: rgb(0, 0, 0);
+    padding: 10rem 0;
+    align-items: center;
+    background: url("../images/animals/animal-bg.jpg");
+    color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.pages-main-content .animals1 {
+    background: url("../images/animals/allyson-beaucourt-K8Cd5ya9Tp4-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pages-main-content .animals2 {
+    background: url("../images/animals/jonny-gios-6DO3cpXjFrc-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pages-main-content .animals3 {
+    background: url("../images/animals/lance-reis-hZgs5xIL318-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pages-main-content .animals4 {
+    background: url("../images/animals/megat-irfan-Lw4_w3zt5lg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pages-main-content .animals5 {
+    background: url("../images/animals/robbin-grimm-Ly84kjWTcfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pages-main-content .animals6 {
+    background: url("../images/animals/waldemar-brandt-_62bftUAKyY-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pages-main-content .animals7 {
+    background: url("../images/animals/yves-cedric-schulze-X00krxvBwUU-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
