@@ -97,9 +97,14 @@ header input {
     width: 400px;
     height: 250px;
     border-radius: 2rem;
-    box-shadow: 0 0 9px #000;
+    box-shadow: 0 0 5px #000;
     position: relative;
     cursor: pointer;
+    transition: all .3s;
+}
+
+.main-content div:hover {
+    box-shadow: 0 0 11px #000;
 }
 
 .label {
