@@ -132,51 +132,48 @@ footer {
     opacity: .5;
 }
 
-.pages-main-content {
-    padding: 3rem ;
-    display: flex;
-    flex-wrap: wrap;
+.page-main-content {
+    padding: 2rem 5rem;
     gap: 2rem;
     justify-content: center;
     margin: 5rem 0;
+    flex-flow: wrap;
+	display: flex;
 }
 
-.pages-main-content a {
-    width: 400px;
-    height: 250px;
+.page-main-content a {
     flex: auto;
     display: flex;
 }
 
-.pages-main-content div {
-    width: 400px;
-    height: 250px;
+.page-main-content div {
+    width: 300px;
+    height: 200px;
     border-radius: 2rem;
     box-shadow: 0 0 9px #000;
     position: relative;
-    cursor: pointer;
+    cursor: zoom-in;
     flex: auto;
 }
 
-.pages-main-content .label {
-    position: absolute;
+.page-main-content .info {
     width: 100%;
-    display: none;
-    justify-content: left;
-    color: white;
-    align-items: top;
-    background-color: rgba(0, 0, 0, .7);
-    flex-direction: column;
-}
-
-.pages-main-content .label p {
-    background: none;
-    font-weight: normal;
-}
-
-.pages-main-content div:hover .label {
+    position: absolute;
     display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    color: white;
+    background: rgb(0, 0, 0, .8);
+    font-size: 13px;
+    opacity: 0;
+    transition: all .5s;
 }
+
+.page-main-content div:hover .info {
+    opacity: 1;
+}
+
 
 /* ---------------------------- Nature ----------------------------- */
 
@@ -191,47 +188,48 @@ footer {
     position: relative;
 }
 
-.pages-main-content .nature1 {
+.page-main-content .nature1 {
     background: url("../images/nature/daniel-sanchez-RV1We1RYc60-unsplash.jpg");
     background-size: cover;
 }
 
-.pages-main-content .nature2 {
+.page-main-content .nature2 {
     background: url("../images/nature/david-gor-97tNAI9u8M0-unsplash.jpg");
     background-size: cover;
 }
 
-.pages-main-content .nature3 {
+.page-main-content .nature3 {
     background: url("../images/nature/josh-hild-LBFBgN6f3vU-unsplash.jpg");
     background-size: cover;
 }
 
-.pages-main-content .nature4 {
+.page-main-content .nature4 {
     background: url("../images/nature/nicola-pavan-r1cgY83L8-w-unsplash.jpg");
     background-size: cover;
     background-position: bottom;
 }
 
-.pages-main-content .nature5 {
+.page-main-content .nature5 {
     background: url("../images/nature/sajad-nori-7SkQDzHbE3s-unsplash.jpg");
     background-size: cover;
 }
 
-.pages-main-content .nature6 {
+.page-main-content .nature6 {
     background: url("../images/nature/tingfeng-xia-Mio9o6g2Nxc-unsplash.jpg");
     background-size: cover;
     background-position: bottom;
 }
 
-.pages-main-content .nature7 {
+.page-main-content .nature7 {
     background: url("../images/nature/zac-porter-XLmjl7VCbeU-unsplash.jpg");
     background-size: cover;
     background-position: bottom;
 }
 
 
-/* ---------------------------- Food & Drinks -----------------------------*/ 
 
+
+/* ---------------------------- Food & Drinks -----------------------------*/ 
 .food-header {
     background-color: rgb(0, 0, 0);
     padding: 10rem 0;
@@ -243,43 +241,43 @@ footer {
     position: relative;
 }
 
-.pages-main-content .food1 {
+.page-main-content .food1 {
     background: url("../images/food/ali-choubin-I0B_QnY2VOQ-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.pages-main-content .food2 {
+.page-main-content .food2 {
     background: url("../images/food/eugene-chystiakov-qyCSVCqDI9E-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.pages-main-content .food3 {
+.page-main-content .food3 {
     background: url("../images/food/filipp-romanovski-POTv2nUfBqw-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.pages-main-content .food4 {
+.page-main-content .food4 {
     background: url("../images/food/keyur-tandel-WeH8zBCZVbc-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.pages-main-content .food5 {
+.page-main-content .food5 {
     background: url("../images/food/kim-ick-5v3WRmSq3Xg-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.pages-main-content .food6 {
+.page-main-content .food6 {
     background: url("../images/food/or-hakim-3BytYjNwfog-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.pages-main-content .food7 {
+.page-main-content .food7 {
     background: url("../images/food/vd-photography-HFjclWnOHrI-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -288,7 +286,7 @@ footer {
 
 
 
-/* ---------------------------- animals -----------------------------*/ 
+/* ---------------------------- Animals -----------------------------*/ 
 
 .animals-header {
     background-color: rgb(0, 0, 0);
@@ -301,44 +299,160 @@ footer {
     position: relative;
 }
 
-.pages-main-content .animals1 {
+.page-main-content .animals1 {
     background: url("../images/animals/allyson-beaucourt-K8Cd5ya9Tp4-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.pages-main-content .animals2 {
+.page-main-content .animals2 {
     background: url("../images/animals/jonny-gios-6DO3cpXjFrc-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.pages-main-content .animals3 {
+.page-main-content .animals3 {
     background: url("../images/animals/lance-reis-hZgs5xIL318-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.pages-main-content .animals4 {
+.page-main-content .animals4 {
     background: url("../images/animals/megat-irfan-Lw4_w3zt5lg-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.pages-main-content .animals5 {
+.page-main-content .animals5 {
     background: url("../images/animals/robbin-grimm-Ly84kjWTcfE-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.pages-main-content .animals6 {
+.page-main-content .animals6 {
     background: url("../images/animals/waldemar-brandt-_62bftUAKyY-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.pages-main-content .animals7 {
+.page-main-content .animals7 {
     background: url("../images/animals/yves-cedric-schulze-X00krxvBwUU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/* ---------------------------- Architecture -----------------------------*/ 
+
+.arch-header {
+    background-color: rgb(0, 0, 0);
+    padding: 10rem 0;
+    align-items: center;
+    background: url("../images/architecture/arch-bg.jpg");
+    color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.page-main-content .arch1 {
+    background: url("../images/architecture/akbar-nemati-k_j7yMyaopQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-main-content .arch2 {
+    background: url("../images/architecture/giorgio-manenti-RMmM2qAbNdc-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-main-content .arch3 {
+    background: url("../images/architecture/job-savelsberg-zdMXvYfWX1M-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-main-content .arch4 {
+    background: url("../images/architecture/paulina-milde-jachowska-G4wYiDf5JkI-unsplash.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.page-main-content .arch5 {
+    background: url("../images/architecture/puru-raj-p6aRg1GdtmY-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-main-content .arch6 {
+    background: url("../images/architecture/simon-maisch-4p6RuyasS8Y-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-main-content .arch7 {
+    background: url("../images/architecture/wan-jun-1NJdZpNR8V8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/* ---------------------------- Architecture -----------------------------*/ 
+
+.history-header {
+    background-color: rgb(0, 0, 0);
+    padding: 10rem 0;
+    align-items: center;
+    background: url("../images/history/history-bg.jpg");
+    color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.page-main-content .history1 {
+    background: url("../images/history/alex-quezada-i8vUaSDbqmg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-main-content .history2 {
+    background: url("../images/history/batuhan-dogan-qJq6JK-tC_U-unsplash.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.page-main-content .history3 {
+    background: url("../images/history/boesijana-sGJ6QSqdK0U-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-main-content .history4 {
+    background: url("../images/history/febe-vanermen-4WD6VDPHNsk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-main-content .history5 {
+    background: url("../images/history/john-lockton-hqz2IuNwiqY-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-main-content .history6 {
+    background: url("../images/history/michael-martinelli-k03Ih53_MAY-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-main-content .history7 {
+    background: url("../images/history/mk-s-IeRK8AGdsnQ-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
