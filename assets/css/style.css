@@ -155,10 +155,32 @@ header input {
 
 footer {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .9rem;
     justify-content: center;
     padding: 1rem;
+    padding-top: 1.5rem;
     background-color: #333;
     color: white;
+}
+
+footer .social {
+    display: flex;
+    padding-top: .6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top: 1px solid rgb(255, 255, 255, .3);
+    gap: 1rem;
+}
+
+footer .social i {
+    cursor: pointer;
+    transition: all .3s;
+}
+
+footer .social i:hover {
+    color: #ffb142;
 }
 
 /* ---------------------------- Pages ----------------------------- */
