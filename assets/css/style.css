@@ -4,7 +4,39 @@
     box-sizing: border-box;
     font-family: sans-serif;
     text-decoration: none;
-    transition: all .5s;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 0 0.5rem ;
+    gap: 3rem;
+}
+
+nav img {
+    width: 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+nav ul a {
+    color: #000;
+    font-weight: bold;
+    line-height: 3rem;
+    padding: 0 1rem;
+    display: flex;
+    position: relative;
+}
+
+nav ul a:hover{
+    background-color: rgb(0, 0, 0, .5);
+    color:white;
 }
 
 header {
@@ -129,7 +161,7 @@ footer {
     width: 100%;
     height: 100%;
     background-color: rgb(0, 0, 0);
-    opacity: .5;
+    opacity: .7;
 }
 
 .page-main-content {
@@ -173,6 +205,51 @@ footer {
 .page-main-content div:hover .info {
     opacity: 1;
 }
+
+
+/* ---------------------------- CSS for mobile ----------------------------- */
+@media only screen and (max-width: 730px) {
+    nav {
+        display: none;
+    }
+
+    header input {
+        width: 30rem;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    header p {
+        font-size: 15px;
+    }
+    
+    header input {
+        width: 20rem;
+        font-size: 15px;
+    }
+    
+    .title {
+        padding: 20px;
+    }
+    
+    .title h1 {
+        font-size: 40px;
+    }
+
+    .title p {
+        font-size: 15px;
+    }
+
+    .title h2 {
+        font-size: 20px;
+    }
+    
+    .main-content div {
+        width: 310px;
+    }
+}
+
+
 
 
 /* ---------------------------- Nature ----------------------------- */
